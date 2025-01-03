@@ -18,6 +18,8 @@ while (true) {
     } else if (req == "delete") {
         let idx = prompt("Please enter the index of task need to delete.");
         Todo.splice(idx, 1);
+    } else {
+        console.log("Wrong request");
     }
     req = prompt("Enter your Request :");
 
