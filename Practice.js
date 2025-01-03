@@ -51,3 +51,30 @@ console.log("After ", count);
 // The Math.floor
 // function is important in this context because it ensures that the division operation results in an integer by rounding down to the nearest whole number.This is crucial
 // for correctly counting the number of digits in a number.
+
+// WriteaJSprogramtofindthesumofdigitsinanumber.Example:ifnumber=287152,sum=25
+// let sum = 0;
+// num = 287152;
+// while (num > 0) {
+//     sum = sum + Math.floor(num) % 10;
+//     num = num / 10;
+// }
+// console.log("sum is", sum);
+
+//calc factorial of a number
+
+let f = 1;
+num = 4;
+for (let i = 1; i <= num; i++) {
+    f = f * i;
+}
+console.log("Factorial is = ", f);
+//Find the largest number in an array with only positive numbers.
+let a = [1, 2, 3, 4, 8, 5, 6];
+let max = 0;
+for (let i = 0; i < a.length; i++) {
+    if (a[i] > max) {
+        max = a[i];
+    }
+}
+console.log("max is ", max);
