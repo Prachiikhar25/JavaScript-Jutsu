@@ -79,20 +79,7 @@
 // }
 // console.log("max is ", max);
 
-//now what i want to do is a dice roll
-//1 to 6
 
-// while (true) {
-//     let c = prompt("roll or quit");
-//     if (c == "roll") {
-//         let dice = Math.floor(Math.random() * 6) + 1;
-//         console.log("dice is ", dice);
-//     } else if (dice == "quit") {
-//         console.log("End");
-//         break;
-//     }
-
-// }
 
 // ar:name,model,color.Print the car’s name
 const car = {
@@ -113,3 +100,56 @@ const Person = {
 };
 Person.City = "New York";
 Person.country = "The United States";
+
+//building a function
+
+function hello() {
+    console.log("Hello This is a function");
+}
+
+hello();
+//1 to 5
+// function loop() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i, " ");
+//     }
+// }
+// loop();
+
+//now what i want to do is a dice roll
+//1 to 6
+
+function roll() {
+    let dice = Math.floor(Math.random() * 6) + 1;
+    console.log(dice);
+}
+roll();
+
+// while (true) {
+//     let c = prompt("roll or quit");
+//     if (c == "roll") {
+//         let dice = Math.floor(Math.random() * 6) + 1;
+//         console.log("dice is ", dice);
+//     } else if (dice == "quit") {
+//         console.log("End");
+//         break;
+//     }
+
+// }
+
+// function name(n) {
+//     console.log(`name is ${n}`);
+// }
+// name(13);
+
+// function avg(a, b, c) {
+//     console.log((a + b + c) / 3, " Is avg ");
+// }
+// avg(2, 3, 4);
+
+function table(n) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(n * i);
+    }
+}
+table(2);
