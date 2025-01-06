@@ -82,14 +82,34 @@
 //now what i want to do is a dice roll
 //1 to 6
 
-while (true) {
-    let c = prompt("roll or quit");
-    if (c == "roll") {
-        let dice = Math.floor(Math.random() * 6) + 1;
-        console.log("dice is ", dice);
-    } else if (dice == "quit") {
-        console.log("End");
-        break;
-    }
+// while (true) {
+//     let c = prompt("roll or quit");
+//     if (c == "roll") {
+//         let dice = Math.floor(Math.random() * 6) + 1;
+//         console.log("dice is ", dice);
+//     } else if (dice == "quit") {
+//         console.log("End");
+//         break;
+//     }
 
-}
+// }
+
+// ar:name,model,color.Print the car’s name
+const car = {
+    name: "Kia",
+    Model: "new",
+    color: "Grey"
+};
+
+//Aise print karo 
+//car.name
+//car["name"]
+
+// CreateanobjectPersonwiththeirname,ageandcity.Edittheircity’soriginalvaluetochangeitto“NewYork”.AddanewpropertycountryandsetittotheUnitedStates
+const Person = {
+    name: "Prachi",
+    age: 19,
+    City: "Hinganghat"
+};
+Person.City = "New York";
+Person.country = "The United States";
