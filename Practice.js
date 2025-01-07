@@ -153,3 +153,29 @@ function table(n) {
     }
 }
 table(2);
+let c; {
+    c = 9;
+    if (c < 18) {
+        c = 2;
+    }
+}
+console.log(c);
+
+console.log("------------------");
+
+//higher order function
+function multiGreet(func, count) {
+    for (let i = 0; i < count; i++) {
+        func();
+    }
+}
+let greet = function() {
+    console.log("Hi");
+}
+multiGreet(greet, 5);
+//or
+
+
+multiGreet(function() {
+    console.log("Namaste")
+}, 10);
