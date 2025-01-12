@@ -1,3 +1,5 @@
+/*
+
 // let cars = ['kia', 'xuv', 'pia'];
 // console.log(cars);
 // cars.unshift("ant");
@@ -179,3 +181,44 @@ multiGreet(greet, 5);
 multiGreet(function() {
     console.log("Namaste")
 }, 10);
+*/
+// Learning Try catch
+try {
+    console.log(a);
+} catch {
+    console.log("!ERROR a dont exist.")
+}
+
+// other way catch() isme var daaldo
+try {
+    console.log(b);
+} catch (e) {
+    console.log(e);
+    //Reference error aaya!
+}
+
+//power
+const pow = (a, b) => {
+    console.log("Hi this is power", a ** b);
+}
+
+const mul = (a, b) => a * b;
+
+const sum = (a, b) => (a + b);
+const sub = (a, b) => (Math.abs(a - b));
+
+//cube
+const cube = (n) => n * n * n;
+
+//setTimeout 
+// setTimeout(function,time);
+//1000ms =1s
+setTimeout(k = () => {
+        console.log("Hi there!");
+    }, 2000)
+    //2 sec baad hi ye call hua
+
+//setInterval---->
+// setInterval(() => {
+//     console.log("Ye line 2 sec baad lagataar print hogi!");
+// }, 2000);
