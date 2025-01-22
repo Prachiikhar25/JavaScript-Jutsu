@@ -222,3 +222,49 @@ setTimeout(k = () => {
 // setInterval(() => {
 //     console.log("Ye line 2 sec baad lagataar print hogi!");
 // }, 2000);
+let ab = [1, 2, 3, 4, 5, 6, 6];
+ab.slice(2);
+ab.indexOf(2);
+
+// splice
+const Student = {
+    name: "Prachi",
+    rn: 10,
+    majc: 98,
+    naksj: "cdsc"
+};
+
+const dun = {
+    skackl: "acxnkns"
+}
+const as = {
+    // this is objec litereal
+}
+const ar = ['ds', 12, 1, 2, 1];
+// this is Array
+dun.ll = "dsc";
+// js automatically converts all keys to String.
+delete dun.ll;
+
+try { a / b } catch { console.log("Ae murkh apna syntax sudhar") }
+
+// high order function
+// Arrow Function
+const fun = (a, b) => {
+    console.log("Hi this is ", a, b);
+}
+const greet = () => {
+        console.log("Ye hai arrow function!");
+
+    }
+    //implicit return
+const print = () => {
+    console.log("hgieiag");
+}
+
+// setTimeout
+// setTimeout(function,timeout);
+// const repeat = () => console.log(2000);
+setTimeout(() => console.log("Hi"), 200);
+let p = setInterval(() => { console.log("HI CAN I SEE YOU") }, 2000);
+let p1 = setInterval(() => { console.log("Hi this is the second one") }, 800);
