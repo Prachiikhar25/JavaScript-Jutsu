@@ -268,3 +268,9 @@ const print = () => {
 setTimeout(() => console.log("Hi"), 200);
 let p = setInterval(() => { console.log("HI CAN I SEE YOU") }, 2000);
 let p1 = setInterval(() => { console.log("Hi this is the second one") }, 800);
+
+
+// Write an arrow function named arrayAverage that accepts an array of numbers and returns the average of those numbers.
+arrayAverage = (n) => {
+
+}
